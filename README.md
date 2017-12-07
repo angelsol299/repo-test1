@@ -24,3 +24,5 @@ sidan är en blandning av svenska och engelska fört att en del gav av läraren 
  kontkt formen är inte ansluten till nån server så information från formen skickas som ett mejl.
  
  Webbsidan är en single page app så alla information hittas på samma sidan
+
+ IDs har använt inte för att styla men för att göra dem 6 sektioner som en single page app.
