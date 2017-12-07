@@ -16,6 +16,7 @@
  bilderna har tagits av pexels.com och det är gratis att använda dem.
  
  #Sektioner och generalt information
+ 
  webbsidan består av 6 sektioner som är växter, themes, priser, karrier, om oss och kontakt.
  
 sidan är en blandning av svenska och engelska fört att en del gav av läraren på engelska redan.
