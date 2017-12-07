@@ -1,6 +1,7 @@
 # Arboreal - arboreal.ga 
  
  #Installationer och testing
+ 
  For att kuna klona siddan man får göra det utan request genom GitHub annars kan jag skicka alla filer och koder.
  
  För att kunna besöka webbsidan recker det med att gå till htttp://www.arboreal.ga
