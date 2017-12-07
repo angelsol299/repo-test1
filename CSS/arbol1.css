@@ -98,7 +98,7 @@ ul.topnav li a {
 
 ul.topnav li a:hover:not(.active) {background-color: white;}
 
-ul.topnav li.right {float: right;}
+ul.topnav li.right {float: left;}
 
 @media screen and (max-width: 600px){
     ul.topnav li.right, 
