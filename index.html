@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+
+<html lang="sv">
+
+<head>
+    <title>Arboreal</title>
+    <link rel="icon" href="images/arboreal.png">
+    <link rel="stylesheet" type="text/css" href="CSS/arbol1.css">
+</head>
+
+<body>
+    <div class="topnav" id="myTopnav">
+        <a href="#cuerpo" class="active">Home</a>
+        <a href="#home">About</a>
+        <a href="#themes">Themes</a>
+        <a href="#pris">Pricing</a>
+        <a href="#contact">Contact</a>
+        <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+    
+    <div id="cuerpo">
+        <img src="images/plant41.jpg" class="col1" alt="Huvudbild">
+        <div id="home" class="space3"></div>
+        <hr class="hr2">
+        <h1 class="p1" >About</h1>
+        <div class="space5"></div>
+        <div> 
+            <p class="pa1">Arboreal is a subscription service for companies. The service means that you get your office decorated with plants using experts from Arboreal. Then you pay a monthly fee to get new plants delivered and placed in the office every month or week depending on which price plan you have chosen. Arboreal has its customer base among small to medium IT companies in the Stockholm area.</p>
+            <h3 class="m1">Mission</h3>
+           <p class="pa1">Arboreal revolutionizes the way you think about plants in an office environment. Arboreal isn't just a a delivery service for plants, it's a delivery service for new ideas. Arboreal makes it easy to keep your workplace fresh and oxygenated.</p>
+        </div>
+    </div>
+    
+    <div id="themes" class="space3"></div>
+    <hr class="hr2">
+    <h1 class="p1"> Themes</h1>
+    <div class="space5"></div>
+    <table>
+        <tr>
+            <th class="a1">Aloha</th>
+            <th class="a2">Siberia</th>
+            <th class="a3">Exotique Nørdic</th>
+        </tr>
+        <tr>
+            <td>This rich theme includes exotic coconuts spilling all over the floor combined with palm trees that hang down and are always in the way of your daily workflow. This theme is very complicated, suitable for complex startups with a unclear monetizing strategy.</td>
+            <td>Dead plants everywhere. Plants sprayed with white color to give that cold secluded look.</td>
+            <td>Everything is pine and spruce. Get that Norrlands inland-look in your office. Comes with a Christmas Decoration Extension Pack for the first 100 subscribers (Bears not included).</td>  
+        </tr>
+    </table>
+    <br>
+     <div class="flex-container1">
+            <div class="a1"><img src="images/plant6.jpg" class="col1"  ></div>
+            <div class="a2"><img src="images/plant7.jpeg" class="col1" ></div>
+            <div class="a3"><img src="images/plant8.jpeg" class="col1" ></div>
+    </div>
+        
+    <div id="pris" class="space3"></div>
+    <hr class="hr2">
+        <h1 class="p1"> Pricing</h1>
+        <div class="space5"></div>
+        <table>
+            <tr>
+                <th class="a1">Standard</th>
+                <th class="a2">Premium</th>
+                <th class="a3">Exclusive</th>
+            </tr>
+            <tr>
+                <td>Watering not included</td>
+                <td>Watering included</td>
+                <td>Web-controlled automated watering system included</td>
+            </tr>
+            <tr>
+                <td>No change of dead plants, monthly plant change</td>
+                <td>Exchange of dead plants included, monthly plant change</td>
+                <td>Change of dead plants included, weekly plant exchange</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>Surveillence system for every plant. 24/7 support for emergencies</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>Only locally grown plants. Exotic plants flown in by private jet</td>
+            </tr>
+            <tr>
+                <td>1.000 kr/månad</td>
+                <td>1.700 kr/månad</td>
+                <td>2.200 kr/månad</td>
+            </tr>
+        </table> 
+    
+    
+    <div class="space3" id="contact"></div>
+   
+    <h1 class="p1"> Contact</h1><div class="space5"></div>
+    <div class="kontakt1">
+        <form action="mailto:angelsol299@hotmail.com" method="post">
+            <label>Name</label>
+            <input type="text" id="fname" name="Förnamn" placeholder="Write your name">
+
+            <label>Telephone number</label>
+            <input type="text" name="Telefonnummer" placeholder="write your telephone number">
+            <label>Email</label>
+            <input type="text" name="Email" placeholder="Write your email">
+            <label>Company</label>
+            <input type="text" name="Företag" placeholder="write your company name">
+             <label>Subject</label>
+            <input type="text" name="Företag" placeholder="write the subject">
+            <label>Message</label>
+            <textarea name="sumeddelande" placeholder="Write your message"></textarea>
+
+            <input type="submit" value="Send">
+        </form>
+    </div>
+    
+    <p class="p3">Contact information:Birger Jarlsgatan 12, Stockholm. Tel: 08-56 57 30. Facebook: arboreal, Twitter: @arboreal</p>
+   <img src="images/col1.jpeg" class="col5"  alt="farger vaxter">
+   <footer>Copyright &copy; arboreal.se</footer> 
+    
+     <script>
+         function myFunction() {
+         var x = document.getElementById("myTopnav");
+         if (x.className === "topnav") {
+          x.className += " responsive";
+         } else {
+             x.className = "topnav";
+         }
+         }
+</script>
+    
+</body>    
+</html>
